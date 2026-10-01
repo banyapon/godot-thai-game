@@ -1,0 +1,35 @@
+{
+  "id": "dlg_ya_noi_intro",
+  "start_node_id": "n001",
+  "nodes": {
+    "n001": {
+      "type": "line",
+      "speaker_id": "npc_ya_noi",
+      "expression": "gentle_smile",
+      "text": {
+        "en": "Recipes remember more than ingredients.",
+        "th": "สูตรขนมจดจำมากกว่าวัตถุดิบ"
+      },
+      "next": "n002"
+    },
+    "n002": {
+      "type": "choice",
+      "choices": [
+        {
+          "id": "c01",
+          "text": {
+            "en": "What do you mean?",
+            "th": "ยายหมายความว่ายังไง"
+          },
+          "set_flags": [
+            "f_asked_about_memory"
+          ],
+          "next": "n003"
+        }
+      ]
+    },
+    "n003": {
+      "type": "end"
+    }
+  }
+}

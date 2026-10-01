@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "current_scene_id": "scene_family_shop",
+  "player": {
+    "x": 0.0,
+    "lane_id": "lane_main",
+    "facing": "right"
+  },
+  "quest_states": {
+    "q_main_001": "active"
+  },
+  "quest_step_states": {
+    "q_main_001": {
+      "step_01": "active"
+    }
+  },
+  "puzzle_states": {
+    "p_recipe_fold_001": "locked"
+  },
+  "flags": [
+    "f_intro_complete"
+  ],
+  "inventory": [
+    {
+      "item_id": "item_banana_leaf",
+      "qty": 1
+    }
+  ],
+  "unlocked_card_ids": [],
+  "discovered_scene_ids": [
+    "scene_family_shop"
+  ],
+  "relationships": {
+    "npc_ya_noi": 10
+  },
+  "journal_entry_ids": [],
+  "settings": {
+    "language": "th",
+    "text_speed": 1.0
+  }
+}

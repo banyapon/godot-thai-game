@@ -1,0 +1,24 @@
+{
+  "id": "item_banana_leaf",
+  "name": {
+    "en": "Banana Leaf",
+    "th": "ใบตอง"
+  },
+  "type": "ingredient",
+  "description": {
+    "en": "Fresh banana leaf used for wrapping sweets.",
+    "th": "ใบตองสดสำหรับห่อขนม"
+  },
+  "stackable": true,
+  "max_stack": 20,
+  "consumable": true,
+  "combine_rules": [
+    {
+      "with_item_id": "item_bamboo_pin",
+      "result_item_id": "item_folded_leaf_packet"
+    }
+  ],
+  "use_targets": [
+    "hotspot_banana_leaf_table"
+  ]
+}

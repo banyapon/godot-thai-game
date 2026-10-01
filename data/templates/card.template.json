@@ -1,0 +1,34 @@
+{
+  "id": "card_memory_first_fold",
+  "title": {
+    "en": "The First Fold",
+    "th": "รอยพับแรก"
+  },
+  "category": "craft",
+  "rarity": "story",
+  "art_asset": "cards/card_memory_first_fold.png",
+  "short_story": {
+    "en": "A folded leaf can hold food, fragrance, and memory.",
+    "th": "ใบตองหนึ่งรอยพับเก็บได้ทั้งขนม กลิ่นหอม และความทรงจำ"
+  },
+  "cultural_note": {
+    "en": "Add verified cultural context here.",
+    "th": "เพิ่มข้อมูลวัฒนธรรมที่ผ่านการตรวจสอบที่นี่"
+  },
+  "related_npc_ids": [
+    "npc_ya_noi"
+  ],
+  "related_scene_ids": [
+    "scene_riverside_house"
+  ],
+  "related_dessert_ids": [],
+  "quest_source_id": "q_main_001",
+  "set_ids": [
+    "set_grandmothers_recipes"
+  ],
+  "tags": [
+    "banana_leaf",
+    "craft",
+    "memory"
+  ]
+}

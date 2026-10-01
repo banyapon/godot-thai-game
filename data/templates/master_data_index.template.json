@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "scenes": [
+    "scene_family_shop",
+    "scene_market_morning",
+    "scene_riverside_house"
+  ],
+  "quests": [
+    "q_main_001"
+  ],
+  "puzzles": [
+    "p_recipe_fold_001"
+  ],
+  "dialogues": [
+    "dlg_ya_noi_intro"
+  ],
+  "items": [
+    "item_banana_leaf"
+  ],
+  "cards": [
+    "card_memory_first_fold"
+  ],
+  "card_sets": [
+    "set_grandmothers_recipes"
+  ]
+}

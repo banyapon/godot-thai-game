@@ -1,0 +1,49 @@
+{
+  "id": "q_main_001",
+  "title": {
+    "en": "The Missing Recipe Page",
+    "th": "หน้าสูตรที่หายไป"
+  },
+  "type": "main_story",
+  "state": "locked",
+  "giver_npc_id": "npc_ya_noi",
+  "start_conditions": [
+    {
+      "type": "flag",
+      "id": "f_intro_complete",
+      "value": true
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_01",
+      "title": {
+        "en": "Search the shop",
+        "th": "ค้นหาในร้าน"
+      },
+      "required": true,
+      "objective_type": "inspect",
+      "target_ids": [
+        "hotspot_old_recipe_box"
+      ],
+      "complete_when": {
+        "flag": "f_recipe_box_inspected",
+        "value": true
+      }
+    }
+  ],
+  "puzzle_ids": [
+    "p_recipe_fold_001"
+  ],
+  "reward": {
+    "memory_card_ids": [
+      "card_memory_first_fold"
+    ],
+    "unlock_scene_ids": [],
+    "unlock_quest_ids": [
+      "q_character_ya_noi_001"
+    ],
+    "items": []
+  },
+  "completion_dialogue_id": "dlg_q_main_001_complete"
+}

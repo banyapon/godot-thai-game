@@ -1,0 +1,22 @@
+{
+  "event": "quest_completed",
+  "quest_id": "q_main_001",
+  "effects": [
+    {
+      "type": "unlock_card",
+      "card_id": "card_memory_first_fold"
+    },
+    {
+      "type": "set_flag",
+      "id": "f_q_main_001_complete",
+      "value": true
+    },
+    {
+      "type": "unlock_quest",
+      "quest_id": "q_character_ya_noi_001"
+    },
+    {
+      "type": "autosave"
+    }
+  ]
+}

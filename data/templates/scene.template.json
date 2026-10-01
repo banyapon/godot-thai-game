@@ -1,0 +1,58 @@
+{
+  "id": "scene_market_morning",
+  "title": {
+    "en": "Morning Market",
+    "th": "ตลาดเช้า"
+  },
+  "bounds": {
+    "min_x": -20.0,
+    "max_x": 35.0
+  },
+  "lanes": [
+    {
+      "id": "lane_front",
+      "y": -1.2,
+      "depth": 0
+    },
+    {
+      "id": "lane_main",
+      "y": 0.0,
+      "depth": 1
+    },
+    {
+      "id": "lane_back",
+      "y": 1.4,
+      "depth": 2
+    }
+  ],
+  "transition_nodes": [
+    {
+      "id": "tn_01",
+      "from_lane": "lane_main",
+      "to_lane": "lane_back",
+      "x": 12.5
+    }
+  ],
+  "spawn_points": [
+    {
+      "id": "spawn_from_shop",
+      "x": -16.0,
+      "lane_id": "lane_main"
+    }
+  ],
+  "exits": [
+    {
+      "id": "exit_to_shop",
+      "x": -19.0,
+      "destination_scene_id": "scene_family_shop",
+      "destination_spawn_id": "spawn_from_market"
+    }
+  ],
+  "hotspot_ids": [
+    "hotspot_banana_stall",
+    "hotspot_old_sign"
+  ],
+  "npc_ids": [
+    "npc_vendor_maliwan"
+  ]
+}

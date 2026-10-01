@@ -1,0 +1,53 @@
+{
+  "id": "p_recipe_fold_001",
+  "type": "sequence",
+  "title": {
+    "en": "The First Fold",
+    "th": "รอยพับแรก"
+  },
+  "setup": {
+    "scene_id": "scene_riverside_house",
+    "hotspot_id": "hotspot_banana_leaf_table"
+  },
+  "goal": {
+    "en": "Fold the banana leaf in the remembered order.",
+    "th": "พับใบตองตามลำดับที่จดจำไว้"
+  },
+  "required_clue_ids": [
+    "clue_fold_mark",
+    "clue_grandma_note"
+  ],
+  "required_item_ids": [
+    "item_banana_leaf"
+  ],
+  "solution": [
+    "fold_left",
+    "fold_bottom",
+    "fold_right",
+    "pin_center"
+  ],
+  "hint_levels": [
+    {
+      "level": 1,
+      "text": {
+        "en": "Look at the crease marks.",
+        "th": "ลองดูรอยพับบนใบตอง"
+      }
+    },
+    {
+      "level": 2,
+      "text": {
+        "en": "The oldest crease was made first.",
+        "th": "รอยพับที่เก่าที่สุดเกิดก่อน"
+      }
+    }
+  ],
+  "success_effects": [
+    {
+      "type": "set_flag",
+      "id": "f_recipe_fold_solved",
+      "value": true
+    }
+  ],
+  "repeatable": false
+}

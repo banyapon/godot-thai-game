@@ -1,0 +1,16 @@
+{
+  "id": "set_grandmothers_recipes",
+  "title": {
+    "en": "Grandmother's Recipes",
+    "th": "สูตรของยาย"
+  },
+  "required_card_ids": [
+    "card_memory_first_fold",
+    "card_memory_coconut_fire",
+    "card_memory_jasmine_water"
+  ],
+  "completion_reward": {
+    "unlock_dialogue_id": "dlg_set_grandmother_complete",
+    "unlock_cosmetic_id": "decor_old_recipe_frame"
+  }
+}
